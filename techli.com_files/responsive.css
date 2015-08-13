@@ -1,0 +1,444 @@
+.top-bar {
+	background:#000;
+	z-index:9999;
+}
+
+.top-bar.expanded .title-area {
+	background:#222;
+}
+
+.top-bar.expanded .toggle-topbar a span {
+	color:#fff;
+}
+
+.top-bar.expanded .toggle-topbar a {
+	color:#fff;
+}
+
+/* Used to alter styles for screens at least 768px wide. This is where the grid changes. */
+@media only screen and (max-width: 768px) {
+	#header {
+		max-width:1000px;
+		margin:0 auto;
+		height:400px;
+	}
+
+	#topsearchwrapper {
+		width:90% !important;
+		display:block;
+		margin:0 auto;
+		float:none;
+		position:relative;
+		top:0;
+		left:0;
+	}
+	#topsearchwrapper input[type="text"] {
+		
+	}
+}
+
+@media (max-width: 600px) {
+	#top-links ul {
+		float:left;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	#sliderwrapper {
+		display:none!important;
+	}
+}
+
+@media only screen and (max-width: 950px) {
+	#header {
+		height:250px;
+	}
+	
+	#home {
+		/*width:71%;*/
+		/*overflow:hidden;*/
+	}
+	
+	#topbar {
+		width:100%;
+	}
+	
+	#topadspace img {
+		width:300px;
+		height:auto;
+	}
+	
+	.adwrapper_610_75 {
+		width:100%;
+		overflow:hidden;
+		float:right;
+		margin:0;
+		padding:0;
+		background:none;
+	}
+	
+	#searchtop {
+		float:right;
+		width:50%;
+		overflow:hidden;
+	}
+	
+	.featured-post-image {
+		height:270px!important;
+	}
+	
+	.featured-post-image img {
+		max-width:530px;
+		height:auto;
+	}
+	
+	.featured-post .author-byline {
+		width:130px;
+		margin-left:10px;
+		float:left;
+		overflow:hidden;
+	}
+	
+	.author-byline {
+		width:100px!important;
+		overflow:hidden;
+		float:left;
+	}
+	
+	.featured-readmore-link {
+		float:right;
+		margin-left:0;
+		margin-top:-26px;
+	}
+	
+	.post-share {
+		float:right!important;
+	}
+	
+	.row .large-6 {
+		/*width:47%;*/
+		margin-right:2%;
+		overflow:hidden;
+	}
+	
+	.post-image img {
+		width:240px;
+		height:auto;
+		padding:0;
+		margin:0;
+	}
+	
+	.post-image {
+		height:120px;
+		width:235px;
+		overflow:hidden;
+		border:1px solid #CCC;
+	}
+	
+	h2.post-title {
+		height:auto;
+		font-size:13px!important;
+	}
+	
+	p.post-excerpt {
+		font-size:12px;
+		line-height:18px;
+		margin-bottom:25px;
+		height:;
+	}
+	
+	.post {
+		height:400px!important;
+	}
+	
+	.row .large-3 {
+		margin-right:2%;
+	}
+	
+	#social-buttons {
+		margin-left:10px;
+	}
+	
+	#sidebar-tabs p.title a {
+		font-size:10px!important;
+	}
+	
+	#sidebar-tabs .sidebar-post .text a {
+		width:110px;
+		font-size:10px;
+		line-height:14px;
+	}
+	
+	.row .large-9 {
+		width:70%;
+	}
+	
+	.row .large-9 img {
+		max-width:500px;
+		height:auto;
+		
+	}
+	
+	.author-bio .author-bio-desc {
+		max-width:400px;
+		width:100%;
+	}
+	
+	#contact-form {
+		width:500px!important;
+		overflow:hidden;
+	}
+	
+	iframe {
+		max-width:400px!important;
+		float:left;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	body {
+		width:100%;
+	}
+
+	#topadspace {
+		display:block;
+	}
+	
+	#header {
+		height:400px;
+	}
+	
+	#logo {
+		max-width:300px;
+		float:none;
+		margin:30px auto 30px auto
+		display:block;
+		padding-top:20px;
+		background-position:center;
+		background-position-x: 30px;
+		background-position-y: 5px;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+	}
+	
+	.logo-nashville,.logo-st-louis,.logo-chicago {
+		max-width:300px;
+		height:150px!important;
+		margin-left:5px;
+		float:none;
+        width:240px !important;
+		background-size:contain!important;
+	}
+
+	.row .large-9 img {
+		
+	}
+
+	.post-image img {
+		
+	}
+	
+	#home {
+		width:98%;
+		/*overflow:hidden;*/
+	}
+	
+	#topbar {
+		width:100%;
+		font-size:12px;
+		float:left;
+		margin:0;
+	}
+	
+	#topadspace img {
+		display:block;
+		margin-top:-100px;
+	}
+	
+	.adwrapper_610_75 {
+		width:100%;
+		float:right;
+		margin:0;
+		padding:0;
+		background:none;
+	}
+	
+	#searchtop {
+		float:none;
+		clear:both;
+		width:90%;
+	}
+	
+	#searchtop .right {
+		width:95%;
+		float:none;
+        position:relative;
+        margin-top:40px;
+	}
+	input.topsearchbutton {
+		position:absolute;
+		right:10px;
+		top:4px;
+	}
+	.page_nav {
+        width:200px;
+        overflow:hidden;
+        height:50px;
+        padding:10px;
+    }
+	.wp-paginate li {
+		display:none;
+	}
+	
+	.featured-post-image {
+		height:auto!important;
+		border:1px solid #ccc;
+	}
+	
+	.featured-post-image img {
+		max-width:330px;
+		height:auto;
+	}
+	
+	.featured-post .author-byline {
+		width:130px;
+		margin-left:10px;
+		float:left;
+	}
+	
+	.author-byline {
+		width:100px!important;
+		float:left;
+	}
+	
+	.featured-readmore-link {
+		float:right;
+		margin-left:0;
+		margin-top:-26px;
+	}
+	
+	.post-share {
+		float:right!important;
+	}
+	
+	.row .large-6 {
+		width:100%;
+		margin-right:2%;
+	}
+	
+	.post-image img {
+		max-width:302px;
+		height:auto;
+		padding:0;
+		margin:0;
+	}
+	
+	.single-post .post-image,.single-video .post-image {
+		max-height:120px!important;
+		border:1px solid #CCC;
+	}
+	
+	.single-post h2, 
+	.single-post h2.post-title a,
+	.single-video h2.post-title a {
+		height:auto;
+		font-size:24px!important;
+	}
+	
+	p.post-excerpt {
+		font-size:12px;
+		line-height:18px;
+		margin-bottom:35px;
+	}
+	
+	.post {
+		height:400px!important;
+	}
+	
+	.row .large-3 {
+		margin-right:2%;
+		width:90%;
+	}
+	
+	#social-buttons {
+		margin-left:10px;
+	}
+	
+	.row .large-9 {
+		width:98%;
+	}
+	
+	.row .large-9 img {
+		max-width:400px;
+		height:auto;
+	}
+	
+	.author-bio .author-bio-desc {
+		width:240px;
+	}
+	
+	#contact-form {
+		max-width:500px!important;
+	}
+	
+	iframe {
+		width:302px!important;
+		float:left;
+	}
+	
+	.single-post .post-meta {
+		
+	}
+	
+	#single-wrapper .post-single .post-image {
+		width:268px!important;
+	}
+
+	.post-image {
+		width:100%;
+		max-width:200px;
+	}
+
+	.row .large-9 .post-image img {
+		width:100%;
+		max-width:200px;
+	}
+
+	.row {
+		/*overflow:hidden;*/
+	}
+
+	#city-select-ul {
+
+	}
+	#city-select-ul li a {
+		max-width:300px;
+		width:100%;
+	}
+
+	#contact-form {
+		max-width:300px !important;
+		width:100%;
+	}
+
+	input[type="text"],
+	input[type="email"],
+	textarea {
+		width:90%;
+	}
+
+	.wp-socializer-buttons {
+		display:block;
+		width:100%;
+		margin:20px 0;
+	}
+
+}
+
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+	/* For landscape layouts only */
+	
+}
