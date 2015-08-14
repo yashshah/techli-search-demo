@@ -64,7 +64,7 @@ function variables(credentials, app_name, index_document_type, method) {
 variables.prototype = {
   constructor: variables,
   createURL: function() {
-    var created_url = 'http://' + this.credentials + '@scalr.api.appbase.io/' + this.app_name + '/' + this.index_document_type + '/_search';
+    var created_url = 'http://scalr.api.appbase.io/' + this.app_name + '/' + this.index_document_type + '/_search';
     return created_url;
   },
   createEngine: function($this, callback, on_fuzzy) {
